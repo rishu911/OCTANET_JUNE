@@ -1,0 +1,67 @@
+       /* css reset
+       body{
+        font-family: 'Baloo 2', cursive;
+          margin:0px;
+          padding:0px;
+          background:url('img/bg.jpg');
+
+      }
+      .left{
+          position:absolute;
+          left:34px;
+          top:0px;
+          margin:66px auto;
+          display: inline-block;
+          border:2px solid red;
+      }
+      .left img{
+          width:136px;
+          filter:invert();
+      }
+      .left div{
+          text-align: center;
+          color: white;
+      }
+      .mid{
+          display:block;
+          width:36%;
+          margin:66px auto;
+          border:2px solid green;
+      }
+      .right{
+          position:absolute;
+          right:34px;
+          top:0px;
+          margin:18px auto;
+          display: inline-block;
+          border:2px solid purple;
+      }
+      .navbar{
+          display:inline-block;
+      }
+      .navbar li{
+          display:inline-block;
+          font-size:55px;
+      }
+      .navbar li a{
+          color:white;
+          text-decoration: none;
+          padding:44px 34px;
+      }
+      .navbar li a:hover, .navbar li a.active{
+          text-decoration: underline;
+          color:grey;
+      }
+      .btn{
+          margin:66px;
+          background-color: black;
+          color:white;
+          padding:6px 5px;
+          border 2px solid grey;
+          border-radius: 10px;
+          font-size: 40px;
+          cursor:pointer;
+      }
+      .btn:hover{
+          background-color: rgb(74, 73, 73);
+      } */

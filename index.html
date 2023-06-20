@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishu Fitness</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+              /* css reset */
+      body{
+        font-family: 'Baloo 2', cursive;
+          margin:0px;
+          padding:0px;
+          background:url('img/bg.jpg');
+
+      }
+      .left{
+          position:absolute;
+          left:60px; 
+          top:0px;
+          margin:66px auto;
+          display: inline-block;
+          /* border:2px solid red; */
+      }
+      .left img{
+          width:190px;
+          filter:invert();
+      }
+      .left div{
+          text-align: center;
+          color: white;
+          line-height: 19px;
+          font-size: 26px ;
+      }
+      .mid{
+          display:block;
+          width:36%;
+          margin:66px auto;
+          /* border:2px solid green; */
+      }
+      .right{
+          position:absolute;
+          right:87px;
+          top:70px;
+          margin:10px auto;
+          display: inline-block;
+          /* border:4px solid purple; */
+          
+      }
+      .right button{
+      font-size:60px;
+      margin:10px;
+       
+      }
+      .navbar{
+          display:inline-block;
+      }
+      .navbar li{
+          display:inline-block;
+          font-size:66px;
+      }
+      .navbar li a{
+          color:white;
+          text-decoration: none;
+          padding:44px 34px;
+      }
+      .navbar li a:hover, .navbar li a.active{
+          text-decoration: underline;
+          color:grey;
+      }
+      .btn{
+          font-family: 'Baloo 2', cursive;
+          margin:66px;
+          background-color: black;
+          color:white;
+          padding:2px 5px;
+          border :1px solid grey;
+          border-radius: 10px;
+          font-size: 40px;
+          cursor:pointer;
+      }
+      .btn:hover{
+          background-color: rgb(74, 73, 73);
+      }
+      .container{
+        border:4px solid white;
+        margin:286px 300px;
+        padding: 85px;
+        width: 33%;
+        border-radius:68px;
+        color:white;
+      }
+      .form-group input{
+        text-align: center;
+        display:block;
+        width:1000px;
+        border-radius:12px solid black;
+        margin:20px auto;
+        font-size: 55px;
+        padding:10px;
+        border:2px;
+        font-family: 'Baloo 2', cursive;
+      }
+      .container h1{
+        text-align: center;
+        font-size:65px;
+      }
+      .container button{
+        display:block;
+        width:67%;
+        margin:20px auto;
+        font-size:57px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="img/logo.jpg" alt="logo" />
+        <div>Rishu Fitness</div>
+      </div>
+      <!-- mid box for navigation -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us </a></li>
+          <li><a href="#">Fitness calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of your locality now</h1>
+      <form action="noaction.php"></form>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your locality" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender" />
+      </div>
+      <button class="btn">submit</button>
+    </div>
+  </body>
+</html>
